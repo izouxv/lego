@@ -34,7 +34,7 @@
   name = "github.com/decker502/dnspod-go"
 
 [[constraint]]
-  branch = "master"
+  version = "0.21.0"
   name = "github.com/dnsimple/dnsimple-go"
 
 [[constraint]]
@@ -54,8 +54,8 @@
   name = "github.com/timewasted/linode"
 
 [[constraint]]
-  branch = "master"
-  name = "github.com/smueller18/goinwx"
+  version = "0.6.0"
+  name = "github.com/nrdcg/goinwx"
 
 [[constraint]]
   version = "0.5.1"
@@ -90,5 +90,13 @@
   name = "github.com/transip/gotransip"
 
 [[constraint]]
-  version = "0.11.1"
+  version = "0.14.0"
   name = "github.com/exoscale/egoscale"
+
+[[constraint]]
+  version = "v1.1.0"
+  name = "github.com/miekg/dns"
+
+[[constraint]]
+  version = "v0.7.3"
+  name = "github.com/akamai/AkamaiOPEN-edgegrid-golang"

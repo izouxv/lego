@@ -55,7 +55,7 @@
   revision = "a3fa4a771d87bda2514a90a157e1fed1b6897d2e"
 
 [[projects]]
-  digest = "1:d677d9bb0dfb2cf2ec6ab5ff1d2deb08ef88f4b255c9f201f01100933ef001a2"
+  digest = "1:47071ecf8d840dd357ede1b2aed46576bdd0a866adecef3c9e85a00db9672202"
   name = "github.com/akamai/AkamaiOPEN-edgegrid-golang"
   packages = [
     "client-v1",
@@ -64,8 +64,8 @@
     "jsonhooks-v1",
   ]
   pruneopts = "NUT"
-  revision = "196fbdab2db66d0e231cc363efb63454f55fed1c"
-  version = "v0.6.2"
+  revision = "1471ce9c14c6d8c007516e129262962a628fecdf"
+  version = "v0.7.3"
 
 [[projects]]
   digest = "1:823e87ae25170339e2bfd1d6f7c2e27554c6bb5655f91c67b37bd5be45bb6b32"
@@ -128,6 +128,14 @@
   version = "v1.15.23"
 
 [[projects]]
+  digest = "1:cdee563173093e5ae7ab2a19c298e0904129719e1919a3c532b7bb0c3398b818"
+  name = "github.com/cenkalti/backoff"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "1e4cf3da559842a91afcb6ea6141451e6c30c618"
+  version = "v2.1.1"
+
+[[projects]]
   digest = "1:03cfacdc6bfd46007c15786c1ece3fa074f89e5193a292f0f26d9e98c99c7cc2"
   name = "github.com/cloudflare/cloudflare-go"
   packages = ["."]
@@ -176,20 +184,20 @@
   revision = "5448fe645cb1964ba70ac8f9f2ffe975e61a536c"
 
 [[projects]]
-  branch = "master"
-  digest = "1:6b873be0e0ec65484ee086d02143f31332e363b968fdc6d6663160fa98fda505"
+  digest = "1:e856fc44ab196970612bdc8c15e65ccf92ed8d4ccb3a2e65b88dc240a2fe5d0b"
   name = "github.com/dnsimple/dnsimple-go"
   packages = ["dnsimple"]
   pruneopts = "NUT"
-  revision = "35bcc6b47c20ec9bf3a53adcb7fa9665a75f0e7b"
+  revision = "f5ead9c20763fd925dea1362f2af5d671ed2a459"
+  version = "v0.21.0"
 
 [[projects]]
-  digest = "1:e096f1857eedd49e2bd0885d05105d1d4af1bfcf8b1d07fa5710718e6641fd48"
+  digest = "1:9013e4c7a6ff077dcb478aa75524aa73b5763136efb4efe8949b18d9b90dd212"
   name = "github.com/exoscale/egoscale"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "0863d555d5198557e0bf2b61b6c59a873ab0173a"
-  version = "v0.11.1"
+  revision = "4acc53d7aa0960f007acf1daedef69a6d24d8d1f"
+  version = "v0.14.0"
 
 [[projects]]
   digest = "1:aa3ed0a71c4e66e4ae6486bf97a3f4cab28edc78df2e50c5ad01dc7d91604b88"
@@ -232,12 +240,30 @@
   revision = "53e6ce116135b80d037921a7fdd5138cf32d7a8a"
 
 [[projects]]
-  digest = "1:a1578f7323eca2b88021fdc9a79a99833d40b12c32a5ea4f284e2fad19ea2657"
+  digest = "1:1bb197a3b5db4e06e00b7560f8e89836c486627f2a0338332ed37daa003d259e"
   name = "github.com/google/uuid"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "d460ce9f8df2e77fb1ba55ca87fafed96c607494"
-  version = "v1.0.0"
+  revision = "064e2069ce9c359c118179501254f67d7d37ba24"
+  version = "0.2"
+
+[[projects]]
+  branch = "master"
+  digest = "1:de9a3291ce7afad12af8b11f3e9972edca4b77ca1374eacd0c9fa1ff1bddcc7c"
+  name = "github.com/gophercloud/gophercloud"
+  packages = [
+    ".",
+    "openstack",
+    "openstack/dns/v2/recordsets",
+    "openstack/dns/v2/zones",
+    "openstack/identity/v2/tenants",
+    "openstack/identity/v2/tokens",
+    "openstack/identity/v3/tokens",
+    "openstack/utils",
+    "pagination",
+  ]
+  pruneopts = "NUT"
+  revision = "a2b0ad6ce68c8302027db1a5f9dbb03b0c8ab072"
 
 [[projects]]
   branch = "master"
@@ -282,14 +308,6 @@
   revision = "16bdd962781df9696f40cc2bab924f1a855a7f89"
 
 [[projects]]
-  digest = "1:417193ba917954c4837c6fc48c6ac241b3fefd13fc0889367b4a7e43b69d582c"
-  name = "github.com/ldez/go-auroradns"
-  packages = ["."]
-  pruneopts = "NUT"
-  revision = "b40dfcae7c417f8129579362695dc1f3cfe5928d"
-  version = "v2.0.0"
-
-[[projects]]
   digest = "1:111ff5a09a32895248270bfaef9b8b6ac163a8cde9cdd603fed64b3e4b59e8ab"
   name = "github.com/linode/linodego"
   packages = ["."]
@@ -298,12 +316,12 @@
   version = "v0.5.1"
 
 [[projects]]
-  digest = "1:24b5f8d41224b90e3f4d22768926ed782a8ca481d945c0e064c8f165bf768280"
+  digest = "1:6676c63cef61a47c84eae578bcd8fe8352908ccfe3ea663c16797617a29e3c44"
   name = "github.com/miekg/dns"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "5a2b9fab83ff0f8bfc99684bd5f43a37abe560f1"
-  version = "v1.0.8"
+  revision = "a220737569d8137d4c610f80bd33f1dc762522e5"
+  version = "v1.1.0"
 
 [[projects]]
   digest = "1:a4df73029d2c42fabcb6b41e327d2f87e685284ec03edf76921c267d9cfc9c23"
@@ -346,6 +364,22 @@
   revision = "08470befbe04613bd4b44cb6978b05d50294c4d4"
 
 [[projects]]
+  digest = "1:417193ba917954c4837c6fc48c6ac241b3fefd13fc0889367b4a7e43b69d582c"
+  name = "github.com/nrdcg/auroradns"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "750ca8603f9f2cca2457acb22ea6e44d3f05358c"
+  version = "v1.0.0"
+
+[[projects]]
+  digest = "1:78bc7967454f8c2a1257b3fe4ed1d57227fb1dff46fd74d38b91bd0d0cc2620a"
+  name = "github.com/nrdcg/goinwx"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "d8152159450570012552f924a0ae6ab3d8c617e0"
+  version = "v0.6.0"
+
+[[projects]]
   branch = "master"
   digest = "1:02584222c11b07d1d61cd76cc73e78cbc72810384a7ea69c543246d60d3335f7"
   name = "github.com/ovh/go-ovh"
@@ -379,7 +413,7 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:0f9362b2768972675cf28574249bfb5dd65556aac6ad1c36830b4bc8c2134926"
+  digest = "1:180e8ec2d3734b269a8a30b51dbca47fede2ce274fa76da2f00e664481cfb39e"
   name = "github.com/sacloud/libsacloud"
   packages = [
     ".",
@@ -388,7 +422,7 @@
     "sacloud/ostype",
   ]
   pruneopts = "NUT"
-  revision = "7afff3fbc0a3bdff2e008fe2c429d44d9f66f209"
+  revision = "108b1efe4b4d106fee6760bdf1847c4f92e1a92e"
 
 [[projects]]
   digest = "1:6bc0652ea6e39e22ccd522458b8bdd8665bf23bdc5a20eec90056e4dc7e273ca"
@@ -405,14 +439,6 @@
   pruneopts = "NUT"
   revision = "3e01752db0189b9157070a0e1668a620f9a85da2"
   version = "v1.0.6"
-
-[[projects]]
-  branch = "master"
-  digest = "1:94fcec8ba983a96bb3f123ab9690955baf44d6d32de342f95f5a2f665c70457a"
-  name = "github.com/smueller18/goinwx"
-  packages = ["."]
-  pruneopts = "NUT"
-  revision = "5d138389109eca96463f44f692408f0d1c731278"
 
 [[projects]]
   digest = "1:60a46e2410edbf02b419f833372dd1d24d7aa1b916a990a7370e792fada1eadd"
@@ -613,7 +639,7 @@
   revision = "028658c6d9be774b6d103a923d8c4b2715135c3f"
 
 [[projects]]
-  digest = "1:3b7124c543146736e07107be13ea6288923c4a743e07c7a31d6b7209a00a9dab"
+  digest = "1:a50fabe7a46692dc7c656310add3d517abe7914df02afd151ef84da884605dc8"
   name = "gopkg.in/square/go-jose.v2"
   packages = [
     ".",
@@ -621,8 +647,8 @@
     "json",
   ]
   pruneopts = "NUT"
-  revision = "8254d6c783765f38c8675fae4427a1fe73fbd09d"
-  version = "v2.1.8"
+  revision = "ef984e69dd356202fd4e4910d4d9c24468bdf0b8"
+  version = "v2.1.9"
 
 [solve-meta]
   analyzer-name = "dep"
@@ -649,22 +675,27 @@
     "github.com/aws/aws-sdk-go/aws/session",
     "github.com/aws/aws-sdk-go/service/lightsail",
     "github.com/aws/aws-sdk-go/service/route53",
+    "github.com/cenkalti/backoff",
     "github.com/cloudflare/cloudflare-go",
     "github.com/cpu/goacmedns",
     "github.com/decker502/dnspod-go",
     "github.com/dnsimple/dnsimple-go/dnsimple",
     "github.com/exoscale/egoscale",
+    "github.com/gophercloud/gophercloud",
+    "github.com/gophercloud/gophercloud/openstack",
+    "github.com/gophercloud/gophercloud/openstack/dns/v2/recordsets",
+    "github.com/gophercloud/gophercloud/openstack/dns/v2/zones",
     "github.com/iij/doapi",
     "github.com/iij/doapi/protocol",
-    "github.com/ldez/go-auroradns",
     "github.com/linode/linodego",
     "github.com/miekg/dns",
     "github.com/namedotcom/go/namecom",
+    "github.com/nrdcg/auroradns",
+    "github.com/nrdcg/goinwx",
     "github.com/ovh/go-ovh/ovh",
     "github.com/rainycape/memcache",
     "github.com/sacloud/libsacloud/api",
     "github.com/sacloud/libsacloud/sacloud",
-    "github.com/smueller18/goinwx",
     "github.com/stretchr/testify/assert",
     "github.com/stretchr/testify/mock",
     "github.com/stretchr/testify/require",
@@ -676,11 +707,13 @@
     "github.com/urfave/cli",
     "golang.org/x/crypto/ocsp",
     "golang.org/x/net/context",
+    "golang.org/x/net/idna",
     "golang.org/x/net/publicsuffix",
     "golang.org/x/oauth2",
     "golang.org/x/oauth2/clientcredentials",
     "golang.org/x/oauth2/google",
     "google.golang.org/api/dns/v1",
+    "google.golang.org/api/googleapi",
     "gopkg.in/ns1/ns1-go.v2/rest",
     "gopkg.in/ns1/ns1-go.v2/rest/model/dns",
     "gopkg.in/square/go-jose.v2",
